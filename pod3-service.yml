@@ -1,11 +1,11 @@
 apiVersion: v1
-kind: service
+kind: Service
 metadata:
   name: helloworld-service
 spec:
   ports:
   - port: 31001
-    nodeport: 31002
+    nodePort: 31002
     targetPort: nodejs-port
     protocol: TCP
   selector:
