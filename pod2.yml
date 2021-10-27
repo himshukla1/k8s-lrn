@@ -5,11 +5,9 @@ metadata:
 spec:
   containers:
   - name: nginx-himanshu
-    image: nginx 1.21.
+    image: nginx:1.21.
     ports:
     - containerPort: 8080
   containers:
   - name: watcher-himanshu
-    image: watcher
-    ports:
-    - containerPort: 8080
+    image: afakharany/watcher:latest
