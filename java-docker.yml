@@ -2,12 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod4
-  labels:
-    app: helloworld
 spec:
   containers:
-  - name: k8s-java-docker
-    image: himanshukla/java-docker
+  - name: java-docker-himshukla
+    image: himanshu/java-docker
     ports:
-    - name: nodejs-port
-      containerPort: 3000
+    - containerPort: 8080
