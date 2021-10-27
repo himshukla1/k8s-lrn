@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
   - port: 31001
-    nodePort: 31002
+    nodePort: 31003
     targetPort: java-port
     protocol: TCP
   selector:
