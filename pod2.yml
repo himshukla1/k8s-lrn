@@ -7,7 +7,6 @@ spec:
   - name: nginx-himanshu
     image: nginx:1.21.
     ports:
-    - containerPort: 8080
-    
+    - containerPort: 8080    
   - name: watcher-himanshu
     image: afakharany/watcher:latest
