@@ -5,11 +5,12 @@ metadata:
 spec:
   replicas: 10
   selector:
-    matchLables:
+    matchLabels:
       app: helloworld
-   template:
-     metadata:
-       labels: helloworld
+  template:
+    metadata:
+      labels:
+        app: helloworld
     spec:
       containers:
         - name: k8s-demo
